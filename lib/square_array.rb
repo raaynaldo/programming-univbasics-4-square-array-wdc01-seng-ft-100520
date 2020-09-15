@@ -1,7 +1,7 @@
 def square_array(array)
   # your code here
   array.length.times do |index|
-    array[index] = array[index]^2
+    puts index
   end
   array
 end
